@@ -24,6 +24,7 @@
     border-bottom: 1px solid grey;
     width: 100%;
     position: fixed;
+    z-index: 2;
 }
 
 .top-left {
@@ -205,7 +206,6 @@ h2 {
 /* /jumbotron */
 /* content */
 .content {
-    height: 700px;
     background-color: #F5F8FA;
 }
 /* content top */
@@ -291,7 +291,7 @@ h2 {
     padding-right: 10px;
 }
 
-#crm {
+.button {
     text-decoration: none;
     color: white;
     background-color: #ff7a59;
@@ -303,8 +303,100 @@ h2 {
     transition: background-color 0.5s;
 }
 
-#crm:hover {
+.button:hover {
     background-color: rgba(255, 122, 89, 0.5);
 }
 /* /hubspot */
 /* /content top */
+/* content bottom */
+.content-bottom {
+    margin-top: 25px;
+}
+
+#second-box {
+    margin: 0px 20px;
+}
+
+.content-bottom-box {
+    padding: 30px;
+    width: calc(33% - 14px);
+    background-color: white;
+    float: left;
+    transition: transform 0.5s;
+}
+
+.content-bottom-box:hover {
+    transform: scale(1.02);
+}
+
+
+.content-bottom-box img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+.content-bottom-box h4 {
+    float: left;
+    font-size: 22px;
+    color: #33475b;
+    margin-top: 20px;
+}
+
+.content-bottom-box p {
+    float: left;
+    font-size: 13px;
+    color: #33475b;
+    margin-top: 20px;
+}
+
+.content-bottom-box hr {
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.content-bottom-box h5 {
+    float: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-right: 55%;
+    margin-top: 40px;
+}
+
+.content-bottom-box ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.content-bottom-box ul li {
+    font-size: 12px;
+}
+
+.content-bottom-box ul li i {
+    color: #FF7A59;
+    padding-right: 10px;
+    margin-top: 18px;
+    font-size: 15px;
+}
+
+.analytics {
+    margin-bottom: 40px;
+}
+
+.started {
+    margin-left: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff7a59;
+    padding: 12px 80px;
+    border: 1px solid #ff7a59;
+    border-radius: 3px;
+    font-size: 17px;
+    transition: background-color 0.5s;
+}
+
+.started:hover {
+    background-color: rgba(255, 122, 89, 0.5);
+/* /content-bottom */
+/* /content */
