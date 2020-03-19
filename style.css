@@ -13,44 +13,137 @@
 
 .container {
     width: 1080px;
-    border: 1px solid black;
     height: 100%;
     margin:auto;
 }
 
+/* header-top */
 #header-top {
     background-color: #F5F8FA;
+    border-bottom: 1px solid grey;
+    width: 100%;
 }
 
-#header-bottom {
-    background-color: red;
-    height: 150px;
-}
-
-.top {
+.top-left {
     width: 50%;
-    height: 100%;
     float: left;
 }
 
-.top ul {
-    margin-top: 25px;
-    margin-bottom: 25px;
+.top-left ul {
+    margin: 25px 0px;
 }
 
-.top ul li {
+.top-left ul li {
     display: inline;
     font-size: 15px;
+}
+
+.top-left ul li i {
+    font-size: 20px;
+}
+
+#english {
+    margin: 0 15px;
+}
+
+#sort {
+    color: #7b97b5;
 }
 
 #language {
     color: #33475b;
     text-decoration: none;
-    padding: 0 30px;
+    padding-right: 15px;
     border-right: 2px solid #CBD6E2;
 }
 
 #contact {
     color: #33475b;
     text-decoration: none;
+    margin-left: 15px;
+}
+
+.top-right ul {
+    margin: 25px 0px;
+    float: right;
+    margin-left: 30px;
+    list-style: none;
+}
+
+.top-right ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+.top-right ul li a {
+    text-decoration: none;
+}
+
+#search {
+    color: #02a5bd;
+}
+
+#log-in {
+    color: #ff7a59;
+    background-color: white;
+    padding: 11px 35px;
+    border: 1px solid #ff7a59;
+    border-radius: 3px;
+    font-size: 13px;
+    transition: background 0.5s;
+    margin-left: 10px;
+}
+
+#log-in:hover {
+    background: #fff1ee;
+}
+
+#get {
+    color: white;
+    background-color: #ff7a59;
+    padding: 11px 20px;
+    border: 1px solid #ff7a59;
+    border-radius: 3px;
+    font-size: 13px;
+    transition: background-color 0.5s;
+}
+
+#get:hover {
+    background-color: rgba(255, 122, 89, 0.5);
+}
+/* /header-top */
+/* header-bottom */
+.header-bottom {
+    background-color: red;
+}
+
+.header-bottom-left {
+    width: 40%;
+    float: left
+}
+
+#logo img {
+    margin: 40px 0px;
+}
+
+.header-bottom-right {
+    float: left
+}
+
+#navigation {
+    margin-top: 40px;
+}
+
+#navigation li {
+    font-weight: bold;
+    display: inline;
+    padding: 20px;
+    font-size: 16px;
+    color: #33475b;
+    text-decoration: none;
+}
+
+#navigation li i {
+    font-size: 20px;
+    margin-left: 12px;
 }
