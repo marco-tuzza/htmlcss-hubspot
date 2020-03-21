@@ -474,6 +474,7 @@ h2 {
     border-right: 0.5px solid white;
     border-left: 0.5 solid white;
     border-top: 0.5 solid white;
+    margin-bottom: 150px;
 }
 
 .left-top {
@@ -488,4 +489,141 @@ h2 {
 
 .right-top {
     border-bottom: 0.5px solid white;
+}
+/* /gradient */
+/* last */
+.last-top {
+    margin-top: 120px;
+
+}
+
+.last-customer {
+    width: 35%;
+    float: left;
+}
+
+.last-customer h3 {
+    font-size: 50px;
+    color: #33475b;
+}
+
+.last-customer p {
+    font-size: 22px;
+    color: #33475b;
+}
+
+.last-customer span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.last-brand {
+    width: calc(65% - 100px);
+    float: left;
+    margin-left: 100px;
+}
+
+.brand-top div {
+    width: 25%;
+    height: 100px;
+    padding: 25px;
+    float: left;
+}
+
+.brand-top img {
+    width: 100%;
+    height: 100%;
+}
+
+.brand-bottom div {
+    width: 25%;
+    height: 100px;
+    padding:25px;
+    float: left;
+}
+
+.brand-bottom img {
+    width: 100%;
+    height: 100%;
+}
+
+#atlassian {
+    padding: 17px 0px;
+}
+
+#doordash {
+    padding: 17px 0px;
+}
+
+#g2crowd {
+    padding: 10px 0px;
+}
+
+#subaru {
+    padding: 7px 0px;
+}
+
+#wistia {
+    padding: 17px 0px;
+}
+
+#vmware {
+    padding: 13px 0px;
+}
+
+.last-bottom {
+    margin-top: 150px;
+}
+
+.growing {
+    width: 46%;
+    float: left;
+}
+
+.smile {
+    width: 35%;
+    float: right;
+}
+
+.smile img {
+    width: 100%
+}
+
+.growing h3 {
+    font-size: 35px;
+    color: #33475b;
+}
+
+.growing p {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #33475b;
+    font-size: 18px;
+}
+
+.growing a {
+
+    text-decoration: none;
+    color: white;
+    background-color: #ff7a59;
+    padding: 25px 35px;
+    border: 1px solid #ff7a59;
+    border-radius: 5px;
+    font-size: 17px;
+    transition: background-color 0.5s;
+}
+
+.growing a:hover {
+    background-color: rgba(255,122, 89, 0.5);
+}
+
+#small {
+    padding-top: 50px;
+    font-size: 13px;
+}
+/* /last */
+/* footer */
+footer {
+    background-color: #33475b;
+    height: 600px;
 }
